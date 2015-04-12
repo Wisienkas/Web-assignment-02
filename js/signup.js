@@ -10,7 +10,9 @@ function makeUser(usr, pass, email, age) {
         success: function(user) {
             // Hooray! Let them use the app now.
             alert("Success!");
-            window.location.resolveURL()
+            window.location.href = "index.html";
+            self.undelegateEvents();
+            delete self;
         },
         error: function(user, error) {
             // Show the error message somewhere and let the user try again.
