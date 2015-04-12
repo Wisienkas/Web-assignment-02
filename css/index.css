@@ -2,3 +2,15 @@
     background: rgb(160, 160, 160);
     padding: 3em;
 }
+
+.highlight {
+    -webkit-box-shadow: 0 0 8px #FFD700;
+    -moz-box-shadow: 0 0 8px #FFD700;
+    box-shadow: 0 0 8px #FFD700;
+    background-color: #000000;
+    color: #ffff00;
+}
+
+.country {
+    cursor:pointer;
+}
