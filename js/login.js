@@ -40,7 +40,7 @@ $("document").ready(function() {
 
     $("#login-btn").click(function() {
         login($("#inputUsername").val(), $("#inputPassword").val());
-    })
+    });
 
     showUser();
 });
