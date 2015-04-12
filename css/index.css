@@ -9,6 +9,11 @@
     box-shadow: 0 0 8px #FFD700;
     background-color: #000000;
     color: #ffff00;
+
+    -webkit-transition: all 1.5s ease;
+    -moz-transition: all 1.5s ease;
+    -o-transition: all 1.5s ease;
+    transition: all 1.5s ease;
 }
 
 .country {
